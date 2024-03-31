@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{authblk}
+\usepackage{lipsum}
+
+\title{Understanding the Open Cybersecurity Schema Framework}
+\author[1]{Anubhav Gain}
+\author[2]{Hriday Sheth}
+\affil[1]{DevSecOps, atcults}
+\affil[2]{DevOps, atcults}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The Open Cybersecurity Schema Framework (OCSF) is a comprehensive framework for representing cybersecurity events in a standardized and extensible manner. This paper provides an in-depth overview of the OCSF, including its taxonomy, core cybersecurity event schema, and the various constructs and components that make up the framework. The paper delves into the rationale behind the design choices, the guidelines and conventions followed, and the mechanisms for extending and customizing the schema to meet specific needs. Additionally, it explores the potential applications and benefits of adopting the OCSF for cybersecurity data analysis, reporting, and threat intelligence sharing.
+\end{abstract}
+
+
+\section{Introduction}
+In the ever-evolving landscape of cybersecurity, the effective communication and analysis of security event data are paramount. The Open Cybersecurity Schema Framework (OCSF) addresses this challenge by proposing a comprehensive and extensible framework for capturing, organizing, and sharing cybersecurity event data.
+
+\section{Framework Overview}
+The OCSF is composed of several key components, including data types, attributes, objects, event classes, categories, profiles, and extensions. At its core, the framework defines a set of data types and attributes that serve as building blocks for representing cybersecurity events.
+
+\section{OCSF Taxonomy and Constructs}
+The OCSF taxonomy consists of five fundamental constructs: data types and attributes, event classes, categories, profiles, and extensions.
+
+\subsection{Data Types and Attributes}
+The OCSF defines a set of scalar and complex data types, including timestamps, IP addresses, and user names, among others. Attributes are unique identifiers that represent specific validatable data types, either scalar or complex.
+
+\subsection{Event Classes}
+Event classes are the core representation of cybersecurity events in the OCSF. They are particular sets of attributes and objects that describe the semantics of an event, such as a system activity, network activity, or a security finding.
+
+\subsection{Categories}
+Categories organize event classes into domains, such as system activity, network activity, or identity and access management.
+
+\subsection{Profiles}
+Profiles are overlays that augment existing event classes with additional attributes, independent of categories.
+
+\subsection{Extensions}
+The OCSF allows for the creation of extensions, which can add new attributes, objects, categories, profiles, and event classes to the core schema.
+
+\section{Applications and Benefits}
+The adoption of the OCSF offers several key advantages:
+
+\begin{enumerate}
+   \item Interoperability
+   \item Comprehensive Data Representation
+   \item Extensibility
+   \item Improved Analysis and Automation
+   \item Vendor Neutrality
+\end{enumerate}
+
+\section{Conclusion}
+The Open Cybersecurity Schema Framework represents a significant step towards standardizing the representation and exchange of cybersecurity event data.
+
+\end{document}
